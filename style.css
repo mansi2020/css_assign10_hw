@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+    
+}
+body{
+     background-color: black;
+     height: 100vh;
+     width: 100%;
+     display:flex;
+     justify-content: center; 
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s; 
+}
+
+.container img{
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+    height:360px;
+    width:360px;
+    border-radius: 0.4rem;
+    transform: perspective(800px) rotateY(20deg);
+    box-shadow:0 0 8px grey;
+    transition: 0.5s; 
+}
+
+.container img:hover{
+    transform: perspective(800px) rotateY(0deg);
+}
+
+.container:hover .child:not(:hover){
+    opacity:0.3;
+}
