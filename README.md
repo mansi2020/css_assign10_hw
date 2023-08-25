@@ -32,7 +32,8 @@ box-shadow: Adds a shadow effect to an element, providing depth and dimension.
 
 <hr>
 
- <h1>UI PART : with hover effect</h1>
+ <h1>UI PART : with hover effect</h1>  
+ 
  ![Screenshot 2023-08-25 154704](https://github.com/mansi2020/css_assign10_hw/assets/57188328/94cef1f1-1ef0-4bb2-b0ad-8a6fad581912)
  <h1>CSS Property Description</h1>
  :hover: A pseudo-class that targets an element when a user hovers their mouse cursor over it, allowing you to apply specific styles when the element is being hovered.
